@@ -28,7 +28,7 @@ function createWindow() {
             contextIsolation: false,
         },
         autoHideMenuBar: false,
-        icon: path.join(__dirname, '../dist/vite.svg')
+        icon: path.join(__dirname, '../dist/icon.png')
     });
 
     win.webContents.openDevTools();

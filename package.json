@@ -27,7 +27,7 @@
     "asar": false,
     "win": {
       "target": "nsis",
-      "icon": "public/vite.svg"
+      "icon": "public/icon.png"
     }
   },
   "dependencies": {
