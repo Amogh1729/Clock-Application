@@ -31,6 +31,8 @@ function createWindow() {
         icon: path.join(__dirname, '../dist/icon.png')
     });
 
+    win.setMenu(null);
+
     win.webContents.openDevTools();
 
     win.once('ready-to-show', () => {
