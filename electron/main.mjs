@@ -33,7 +33,7 @@ function createWindow() {
 
     win.setMenu(null);
 
-    win.webContents.openDevTools();
+
 
     win.once('ready-to-show', () => {
         log('Window ready to show');
