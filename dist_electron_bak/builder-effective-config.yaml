@@ -1,0 +1,14 @@
+directories:
+  output: dist_electron
+  buildResources: build
+appId: com.clock.app
+productName: Clock
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+asar: false
+win:
+  target: nsis
+  icon: public/vite.svg
+electronVersion: 39.2.7
