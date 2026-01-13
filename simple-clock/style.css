@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Outfit:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a; /* Slate 900 */
+  color: #f8fafc; /* Slate 50 */
+  font-family: 'Outfit', sans-serif;
+  overflow: hidden;
+}
+
+.calendar-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+#day-name {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#date {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  color: #94a3b8; /* Slate 400 */
+}
+
+.clock-container {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4rem 6rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+#clock {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8rem;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  line-height: 1;
+}
+
+#ampm {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 1.5rem;
+  color: #fbbf24; /* Amber 400 */
+}
